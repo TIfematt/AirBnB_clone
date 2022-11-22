@@ -11,10 +11,9 @@ class TestBaseModel(unittest.testcase):
     Class for testing base model case
     """
 
-    model = BaseModel()
+    my_model = BaseModel()
 
     def test_BaseModel(self):
         """ Base model instances and attributes
         test case
         """
-
