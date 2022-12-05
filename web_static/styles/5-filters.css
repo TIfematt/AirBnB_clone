@@ -23,3 +23,24 @@
 .filters button:hover {
     opacity: 0.9;
 }
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+.locations h3, .amenities h3 {
+    font-weight: 600;
+    margin: 0 0 2px 20px;
+
+}
+.locations h4, .amenities h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 2px 0 0 20px;
+}
